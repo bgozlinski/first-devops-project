@@ -23,3 +23,7 @@ Menadżer procesów działający w terminalu. Pozwala na bierząco monitorować 
 
 ## tree
 Narzędzie wyświetlające strukturę katalogów w formie graficznego drzewa.
+
+
+## jq
+Lekki processor JSON w CLI. Umożliwia filtrowanie, przeształcanie i ładne formatowanie danych w formacie JSON.
