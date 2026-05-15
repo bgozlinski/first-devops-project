@@ -21,3 +21,5 @@ Program do rozpakowywania archiwów w formacie ZIP.
 Menadżer procesów działający w terminalu. Pozwala na bierząco monitorować zużycie CPU, RAM itp.
 
 
+## tree
+Narzędzie wyświetlające strukturę katalogów w formie graficznego drzewa.
