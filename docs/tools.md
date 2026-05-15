@@ -7,3 +7,9 @@ projektem.
 
 ## curl
 Narzędzie wiersza poleceń do przesyłania danych przez sieć. Stosowane do testowania API, pobierania plików.
+
+
+## wget
+Menadżer pobierania plików z sieci.
+
+
