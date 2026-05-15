@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  push:
+    branches: [master, main]
+  pull_request:
+    branches: [master, main]
+
+jobs:
+  docker-build:
+    name: Build obrazu Docker
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pobierz kod repozytorium
+        uses: actions/checkout@v4
+ 
+      - name: Zbuduj obraz Docker
+        run: docker build -t first-devops-project:ci .
+ 
+      - name: Sprawdź, czy narzędzia są zainstalowane w kontenerze
+        run: |
+          docker run --rm first-devops-project:ci bash -c "\
+            git --version && \
+            curl --version | head -n1 && \
+            wget --version | head -n1 && \
+            htop --version && \
+            tree --version && \
+            jq --version"
