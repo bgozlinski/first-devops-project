@@ -13,3 +13,5 @@ Narzędzie wiersza poleceń do przesyłania danych przez sieć. Stosowane do tes
 Menadżer pobierania plików z sieci.
 
 
+## unzip
+Program do rozpakowywania archiwów w formacie ZIP.
