@@ -15,3 +15,9 @@ Menadżer pobierania plików z sieci.
 
 ## unzip
 Program do rozpakowywania archiwów w formacie ZIP.
+
+
+## htop
+Menadżer procesów działający w terminalu. Pozwala na bierząco monitorować zużycie CPU, RAM itp.
+
+
